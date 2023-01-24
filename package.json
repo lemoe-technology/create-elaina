@@ -1,0 +1,23 @@
+{
+  "name": "create-elaina",
+  "version": "0.0.1",
+  "description": "elaina 项目初始化工具",
+  "homepage": "https://github.com/lemoe-technology/create-elaina",
+  "bugs": {
+    "url": "https://github.com/lemoe-technology/create-elaina/issues"
+  },
+  "license": "MIT",
+  "author": "Lemoe",
+  "bin": {
+    "create-elaina": "index.js"
+  },
+  "repository": "github:lemoe-technology/create-elaina.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cac": "^6.7.14",
+    "kleur": "^4.1.5",
+    "prompts": "^2.4.2"
+  }
+}

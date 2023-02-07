@@ -6,13 +6,14 @@ create-elaina
 elaina 项目初始化工具
 <p>
 
-
 <p align="center">
   <a href="https://www.npmjs.com/package/create-elaina"><img src="https://img.shields.io/npm/v/create-elaina?style=flat-square"></a>
 <p>
+  
+## Usage
 
 ```bash
-$ npx create-elaina
+$ pnpm create elaina
 ```
 
 ## License

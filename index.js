@@ -19,17 +19,17 @@ const templates = [
   {
     name: 'elaina-template-admin-naive',
     description: 'Elaina Admin Template with Naive UI',
-    repository: null,
+    repository: 'lemoe-technology/elaina-template-admin-naive',
   },
   {
     name: 'elaina-template-admin-element',
     description: 'Elaina Admin Template with Element Plus',
-    repository: null,
+    repository: 'lemoe-technology/elaina-template-admin-element',
   },
   {
     name: 'elaina-template-admin-ant',
     description: 'Elaina Admin Template with Ant Deisgn',
-    repository: null,
+    repository: 'lemoe-technology/elaina-template-admin-ant',
   },
   {
     name: 'elaina-template-api-laravel',

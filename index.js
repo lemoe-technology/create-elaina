@@ -57,7 +57,7 @@ cli
       answers.template = template
       answers.projectName = projectName
     }
-    if (options.force === true) {
+    if (true === options.force) {
       answers.overwrite = true
     }
     prompts.override(answers)
@@ -73,7 +73,7 @@ const { template, projectName } = await prompts(
       choices: templates.map((template) => ({
         title: template.name,
         description: template.description,
-        disabled: template.repository === null,
+        disabled: null === template.repository,
         value: template,
       })),
     },
@@ -91,7 +91,7 @@ const { template, projectName } = await prompts(
     {
       name: 'overwriteChecker',
       type: (prev) => {
-        if (prev === false) {
+        if (false === prev) {
           console.log(`${kleur.red('✖')} Canceled.`)
           process.exit(1)
         }

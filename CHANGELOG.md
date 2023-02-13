@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/lemoe-technology/create-elaina/compare/v1.0.0...v1.1.0) (2023-02-13)
+
+
+### Features
+
+* add repository ([640d728](https://github.com/lemoe-technology/create-elaina/commit/640d728555d5091724fdc51cf0693f5299f01ce0))
+* post command ([181fa3b](https://github.com/lemoe-technology/create-elaina/commit/181fa3ba099b9d555c9a6f364b7c0495b2082de1))
+
 ## 1.0.0 (2023-02-06)
 
 

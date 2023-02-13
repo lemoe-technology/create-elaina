@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/lemoe-technology/create-elaina/compare/v1.1.0...v1.1.1) (2023-02-13)
+
+
+### Bug Fixes
+
+* wrong dependencies ([fc3fd64](https://github.com/lemoe-technology/create-elaina/commit/fc3fd64c821880ec369c1914bf579721680dde68))
+
 ## [1.1.0](https://github.com/lemoe-technology/create-elaina/compare/v1.0.0...v1.1.0) (2023-02-13)
 
 

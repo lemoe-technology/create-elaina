@@ -119,3 +119,10 @@ const buffer = await got.get(url).buffer()
 spinner.text = 'Decompressing...'
 await decompress(buffer, directory, { strip: 1 })
 spinner.succeed('Done.')
+
+console.log('Now Run:')
+console.log()
+console.log(kleur.bold().green(`cd ${projectName}`))
+console.log(kleur.bold().green(`pnpm install`))
+console.log(kleur.bold().green(`pnpm simple-git-hooks`))
+console.log()

@@ -20,11 +20,11 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8
         if: ${{ steps.release.outputs.release_created }}
       - run: pnpm install
         if: ${{ steps.release.outputs.release_created }}
-      - run: npm publish
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
